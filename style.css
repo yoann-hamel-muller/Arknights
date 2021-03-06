@@ -15,6 +15,24 @@
         margin-right: auto;
         z-index: 1;
     }
+    /*@keyframes logo {
+        from {
+            opacity: 0;
+            transform: translateY(-100px);
+            width: 0px;
+        }
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+            width: 500px;
+        }
+    }
+    
+    img.logo {
+        animation: logo 3s;
+        animation-delay: 0s;
+        animation-fill-mode: both;
+    }*/
     img.blake2 {
         width: 30%;
         height: auto;
@@ -307,12 +325,11 @@
         position: relative;
         width: 35%;
         height: auto;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
+        left: 230px;
         z-index: 2;
         border: 2px solid darkred;
         opacity: 0.3;
+        float: left;
     }
     a:hover img.main5 {
         opacity: 1;
@@ -339,6 +356,24 @@
         margin-right: auto;
         z-index: 1;
     }
+    /*@keyframes logo {
+        from {
+            opacity: 0;
+            transform: translateY(-100px);
+            width: 0px;
+        }
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+            width: 500px;
+        }
+    }
+    
+    img.logo {
+        animation: logo 3s;
+        animation-delay: 0s;
+        animation-fill-mode: both;
+    }*/
     img.blake2 {
         width: 30%;
         height: auto;
